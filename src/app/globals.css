@@ -338,19 +338,19 @@
 
 @utility flex-center {
   display: flex;
-  justify-items: center;
+  align-items: center;
   justify-content: center;
 }
 
 @utility flex-between {
   display: flex;
-  justify-items: center;
+  align-items: center;
   justify-content: space-between;
 }
 
 @utility flex-start {
   display: flex;
-  justify-items: center;
+  align-items: center;
   justify-content: start;
 }
 
