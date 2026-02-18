@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Montserrat } from 'next/font/google';
+import { Anton, Bonheur_Royale, Montserrat } from 'next/font/google';
 import './globals.css';
 import clsx from 'clsx';
 
@@ -7,6 +7,20 @@ const montserrat = Montserrat({
   variable: '--font-montserrat',
   weight: ['400', '500', '600', '700'],
   style: ['normal', 'italic'],
+  subsets: ['latin'],
+});
+
+const anton = Anton({
+  variable: '--font-anton',
+  weight: '400',
+  style: ['normal'],
+  subsets: ['latin'],
+});
+
+const bonheurRoyale = Bonheur_Royale({
+  variable: '--font-bonheur-royale',
+  weight: '400',
+  style: ['normal'],
   subsets: ['latin'],
 });
 
@@ -25,7 +39,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={clsx(montserrat.variable, 'antialiased')}>
+      <body
+        className={clsx(
+          montserrat.variable,
+          anton.variable,
+          bonheurRoyale.variable,
+          'antialiased'
+        )}
+      >
         {children}
       </body>
     </html>

@@ -4,6 +4,8 @@
 
 @theme {
   --font-montserrat: 'Montserrat';
+  --font-anton: 'Anton';
+  --font-bonheur-royale: 'Bonheur Royale';
   /* Display Styles */
   --text-display-3xl: 3.75rem;
   --text-display-3xl--line-height: 4.5rem;
@@ -82,6 +84,7 @@
   /* Color Theme - Base */
   --color-base-white: #ffffff;
   --color-base-black: #000000;
+  --color-base-background: #ffffff;
 
   /* Radius */
   --radius-none: 0rem;
@@ -357,4 +360,13 @@ img {
   user-select: none; /* Prevent selection */
   touch-action: none; /* Disable touch gestures */
   -webkit-user-select: none; /* For Safari */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base-background text-sm font-normal text-neutral-950;
+  font-family: var(--font-montserrat);
 }
