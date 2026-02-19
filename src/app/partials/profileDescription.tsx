@@ -1,4 +1,3 @@
-import { Mic } from 'lucide-react';
 import { FaMicrophone } from 'react-icons/fa';
 
 export default function ProfileDescription() {
