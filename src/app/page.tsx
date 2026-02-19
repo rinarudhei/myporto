@@ -4,6 +4,7 @@ import { Header } from './partials/header';
 import ProfileDescription from './partials/profileDescription';
 import { Achievements } from './partials/achivements';
 import { EmploymentStatus } from './partials/employmentStatus';
+import { Hero } from './partials/hero';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <ProfileDescription />
         <Achievements />
         <EmploymentStatus />
+        <Hero />
       </Header>
     </div>
   );
