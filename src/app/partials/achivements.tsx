@@ -6,13 +6,13 @@ export const Achievements = () => {
   return (
     <div className='z-50 mt-6.25 flex w-full max-w-[calc(100%-2rem)] flex-col items-center gap-5'>
       <div className='flex-between w-full'>
-        <div className='flex flex-col'>
-          <h3 className='text-display-md font-bold text-white'>2+</h3>
+        <div className='flex flex-col gap-0.75'>
+          <h3 className='text-display-md h-10.5 font-bold text-white'>2+</h3>
           <p className='text-xs font-semibold text-white'>Years Experience</p>
         </div>
         <Separator orientation='vertical' className='bg-primary-300' />
-        <div className='flex flex-col'>
-          <h3 className='text-display-md font-bold text-white'>99%</h3>
+        <div className='flex flex-col gap-0.75'>
+          <h3 className='text-display-md h-10.5 font-bold text-white'>99%</h3>
           <p className='text-xs font-semibold text-white'>
             Client Satisfaction
           </p>
@@ -20,13 +20,13 @@ export const Achievements = () => {
       </div>
 
       <div className='flex-between w-full'>
-        <div className='flex flex-col'>
-          <h3 className='text-display-md font-bold text-white'>3</h3>
+        <div className='flex flex-col gap-0.75'>
+          <h3 className='text-display-md h-10.5 font-bold text-white'>3</h3>
           <p className='text-xs font-semibold text-white'>Project Delivered</p>
         </div>
         <Separator orientation='vertical' className='bg-primary-300' />
-        <div className='flex flex-col'>
-          <h3 className='text-display-md font-bold text-white'>50</h3>
+        <div className='flex flex-col gap-0.75'>
+          <h3 className='text-display-md h-10.5 font-bold text-white'>50</h3>
           <p className='text-xs font-semibold text-white'>Clients Worldwide</p>
         </div>
       </div>
