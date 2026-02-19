@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 export const Navbar = () => {
   return (
-    <nav className='flex-between mt-4 h-12 w-full max-w-[calc(100%-2rem)] gap-6 rounded-full bg-black/20 px-4 text-white backdrop-blur-2xl sm:mt-8 sm:w-fit sm:max-w-138.25 sm:px-6'>
+    <nav className='flex-between z-50 mt-4 h-12 w-full max-w-[calc(100%-2rem)] gap-6 rounded-full bg-black/20 px-4 text-white backdrop-blur-2xl sm:mt-8 sm:w-fit sm:max-w-138.25 sm:px-6'>
       <ul className='sm:flex-center hidden gap-6'>
         {navigationData.map((data) => (
           <li key={data.label} className='gap-2 p-2'>
