@@ -27,42 +27,70 @@ export const Achievements = () => {
 
   return (
     <motion.div
-      className='z-50 mt-6.25 flex w-full max-w-[calc(100%-2rem)] flex-col items-center gap-5'
+      className='sm:m-none z-50 mt-6.25 flex w-full max-w-[calc(100%-2rem)] flex-col items-center gap-5 sm:absolute sm:top-[237px] sm:right-30 sm:max-w-[222px]'
       variants={containerVariants}
       initial='hidden'
       animate='visible'
     >
-      <motion.div variants={itemVariants} className='flex-between w-full'>
-        <div className='flex flex-col gap-0.75'>
-          <h3 className='text-display-md h-10.5 font-bold text-white'>2+</h3>
-          <p className='text-xs font-semibold text-white'>Years Experience</p>
+      <motion.div
+        variants={itemVariants}
+        className='flex-between w-full sm:flex-col sm:gap-5'
+      >
+        <div className='flex flex-col gap-0.75 sm:w-full'>
+          <h3 className='text-display-md sm:text-display-2xl h-10.5 font-bold text-white sm:h-15'>
+            2+
+          </h3>
+          <p className='sm:text-md text-xs font-semibold text-white sm:tracking-normal'>
+            Years Experience
+          </p>
         </div>
-        <Separator orientation='vertical' className='bg-primary-300' />
-        <div className='flex flex-col gap-0.75'>
-          <h3 className='text-display-md h-10.5 font-bold text-white'>99%</h3>
-          <p className='text-xs font-semibold text-white'>
+        <Separator
+          orientation='vertical'
+          className='bg-primary-300 sm:hidden'
+        />
+        <Separator className='bg-primary-300 hidden sm:inline-block' />
+        <div className='flex flex-col gap-0.75 sm:w-full'>
+          <h3 className='text-display-md sm:text-display-2xl h-10.5 font-bold text-white sm:h-15'>
+            99%
+          </h3>
+          <p className='sm:text-md text-xs font-semibold text-white sm:tracking-normal'>
             Client Satisfaction
           </p>
         </div>
       </motion.div>
 
-      <motion.div variants={itemVariants} className='flex-between w-full'>
-        <div className='flex flex-col gap-0.75'>
-          <h3 className='text-display-md h-10.5 font-bold text-white'>3</h3>
-          <p className='text-xs font-semibold text-white'>Project Delivered</p>
+      <Separator className='bg-primary-300 hidden sm:inline-block' />
+
+      <motion.div
+        variants={itemVariants}
+        className='flex-between w-full sm:flex-col sm:gap-5'
+      >
+        <div className='flex flex-col gap-0.75 sm:w-full'>
+          <h3 className='text-display-md sm:text-display-2xl h-10.5 font-bold text-white sm:h-15'>
+            3
+          </h3>
+          <p className='sm:text-md text-xs font-semibold text-white sm:tracking-normal'>
+            Project Delivered
+          </p>
         </div>
-        <Separator orientation='vertical' className='bg-primary-300' />
-        <div className='flex flex-col gap-0.75'>
-          <h3 className='text-display-md h-10.5 font-bold text-white'>50</h3>
+        <Separator
+          orientation='vertical'
+          className='bg-primary-300 sm:hidden'
+        />
+        <Separator className='bg-primary-300 hidden sm:inline-block' />
+        <div className='flex flex-col gap-0.75 sm:w-full'>
+          <h3 className='text-display-md sm:text-display-2xl h-10.5 font-bold text-white sm:h-15'>
+            50
+          </h3>
           <p className='text-xs font-semibold text-white'>Clients Worldwide</p>
         </div>
       </motion.div>
 
-      <motion.div variants={itemVariants} className='w-full'>
+      <motion.div variants={itemVariants} className='w-full sm:z-50'>
         <Button
           variant='secondary'
           size='lg'
-          className='group w-full cursor-pointer pl-4'
+          className='group sm:text-md w-full cursor-pointer pl-4 sm:tracking-normal'
         >
           <p className='group-hover:text-white'>Contact Me</p>
           <div className='flex-center h-fit w-fit gap-2 rounded-full bg-neutral-950 p-2 group-hover:bg-neutral-950/50'>

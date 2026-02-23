@@ -38,10 +38,10 @@ export const Hero = () => {
           ease: 'linear',
         }}
         src='/shuriken.svg'
-        width={375}
-        height={452}
+        width={99}
+        height={99}
         alt='Ping Shuriken svg image'
-        className='absolute right-0 bottom-14.5 h-24.75 w-24.75'
+        className='absolute right-0 bottom-14.5 h-24.75 w-24.75 sm:right-112 sm:bottom-24 sm:h-41.25 sm:w-41.25 sm:rotate-59'
       />
       <MotionLightning
         animate={{
@@ -57,24 +57,23 @@ export const Hero = () => {
         alt='Ping Lightning svg image'
         width={91}
         height={91}
-        className='absolute bottom-52.75 -left-4 h-22.75 w-22.75'
+        className='absolute bottom-52.75 -left-4 h-22.75 w-22.75 sm:bottom-116.75 sm:left-96 sm:h-41.25 sm:w-52 sm:-rotate-15'
       />
       <MotionImage
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
+        width={610}
+        height={735}
         src='/CandidGentleman.png'
-        objectFit='none'
-        width={375}
-        height={452}
         alt='Candid Gentleman png picture'
-        className='absolute bottom-0 z-49 ml-4.75'
+        className='absolute bottom-0 z-49 ml-4.5 w-full max-w-[375px] sm:ml-2 sm:max-w-[610px]'
       />
       <motion.span
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.7, duration: 0.5 }}
-        className='font-bonheur-royale leading-8xl absolute top-156 right-1/2 z-50 h-20.25 w-29 -translate-x-[calc(50%-17px)] -rotate-[12.34deg] text-[64px] font-normal -tracking-[0.02em] text-white'
+        className='font-bonheur-royale leading-8xl sm:leading-11xl absolute top-156 right-1/2 z-50 h-20.25 w-29 -translate-x-[calc(50%-17px)] -rotate-[12.34deg] text-[64px] font-normal -tracking-[0.02em] text-white sm:top-55 sm:translate-x-[calc(50%-360px)] sm:text-[113px]'
       >
         Junior
       </motion.span>
@@ -83,7 +82,7 @@ export const Hero = () => {
         initial={{ x: -200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeOut' }}
-        className='font-anton text-secondary-100 absolute bottom-62.5 z-48 h-31.5 text-center text-[102px] leading-31.25 font-normal -tracking-[0.02em]'
+        className='font-anton text-secondary-100 absolute bottom-62.5 z-48 text-center text-[102px] leading-31.25 font-normal -tracking-[0.02em] sm:bottom-[536px] sm:text-[188px] sm:leading-57'
       >
         FRONTEND
       </motion.h2>
@@ -92,7 +91,7 @@ export const Hero = () => {
         initial={{ x: 200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
-        className='font-anton text-secondary-100 absolute bottom-36 z-48 h-31.5 text-center text-[92px] leading-[112.5px] font-normal -tracking-[0.02em]'
+        className='font-anton text-secondary-100 absolute bottom-36 z-48 text-center text-[92px] leading-[112.5px] font-normal -tracking-[0.02em] sm:bottom-91.5 sm:text-[169px] sm:leading-51.25'
       >
         DEVELOPER
       </motion.h2>
@@ -101,7 +100,7 @@ export const Hero = () => {
         initial={{ x: 200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
-        className='font-anton absolute bottom-36 z-50 h-31.5 bg-clip-text text-center text-[92px] leading-[112.5px] font-normal -tracking-[0.02em] text-transparent [-webkit-text-stroke:1px_#f3b64c]'
+        className='font-anton absolute bottom-36 z-50 bg-clip-text text-center text-[92px] leading-[112.5px] font-normal -tracking-[0.02em] text-transparent [-webkit-text-stroke:1px_#f3b64c] sm:bottom-91.5 sm:text-[169px] sm:leading-51.25'
       >
         DEVELOPER
       </motion.h2>
