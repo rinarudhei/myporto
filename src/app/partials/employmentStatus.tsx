@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 export const EmploymentStatus = () => {
   return (
     <motion.div
-      className='flex-center bg-primary-400 border-primary-300 sm:m-none z-50 mt-9.5 box-border w-fit gap-1.5 rounded-full border px-4 py-1 sm:absolute sm:top-56.75 sm:h-9.5'
+      className='flex-center bg-primary-400 border-primary-300 sm:m-none z-50 mt-9.5 box-border w-fit gap-1.5 rounded-full border px-4 py-1 sm:absolute sm:top-50 sm:h-9.5 lg:top-56.75'
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{
