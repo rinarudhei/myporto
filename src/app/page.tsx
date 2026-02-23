@@ -5,12 +5,14 @@ import ProfileDescription from './partials/profileDescription';
 import { Achievements } from './partials/achivements';
 import { EmploymentStatus } from './partials/employmentStatus';
 import { Hero } from './partials/hero';
+import { HighlightSkills } from './partials/highlightSkiils';
 
 export default function Home() {
   return (
     <div>
       <Header>
         <Navbar />
+        <HighlightSkills />
         <ProfileDescription />
         <Achievements />
         <EmploymentStatus />
