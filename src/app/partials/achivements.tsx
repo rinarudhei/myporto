@@ -27,7 +27,7 @@ export const Achievements = () => {
 
   return (
     <motion.div
-      className='sm:m-none z-50 mt-6.25 flex w-full max-w-[calc(100%-2rem)] flex-col items-center gap-5 sm:absolute sm:top-[237px] sm:left-1/2 sm:max-w-[120px] sm:translate-x-[34vw] md:translate-x-[36vw] lg:max-w-[12vw] lg:translate-x-[378px] xl:max-w-[222px]'
+      className='sm:m-none z-50 mt-6.25 flex w-full max-w-[calc(100%-2rem)] flex-col items-center gap-5 sm:absolute sm:top-[237px] sm:left-1/2 sm:max-w-[120px] sm:translate-x-[34vw] md:translate-x-[36vw] lg:max-w-[12vw] lg:translate-x-[378px] xl:max-w-[224px]'
       variants={containerVariants}
       initial='hidden'
       animate='visible'
@@ -92,7 +92,7 @@ export const Achievements = () => {
         <Button
           variant='secondary'
           size='lg'
-          className='group lg:text-md w-full cursor-pointer overflow-x-hidden pl-4 sm:text-sm sm:tracking-normal'
+          className='group lg:text-md scrollbar-hide w-full cursor-pointer overflow-x-hidden pl-4 sm:text-sm sm:tracking-normal'
         >
           <p className='text-nowrap group-hover:text-white'>Contact Me</p>
           <div className='flex-center h-fit w-fit gap-2 rounded-full bg-neutral-950 p-2 group-hover:bg-neutral-950/50 sm:hidden md:w-fit xl:inline-block'>
