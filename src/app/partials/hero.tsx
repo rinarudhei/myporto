@@ -69,7 +69,7 @@ export const Hero = () => {
         height={735}
         src='/CandidGentleman.png'
         alt='Candid Gentleman png picture'
-        className='absolute bottom-0 z-49 ml-4.5 w-full max-w-[375px] sm:ml-2 sm:max-w-[520px] md:max-w-[540px] lg:max-w-[580px] xl:max-w-[610px]'
+        className='absolute bottom-0 z-40 ml-4.5 w-full max-w-[375px] sm:ml-2 sm:max-w-[520px] md:max-w-[540px] lg:max-w-[580px] xl:max-w-[610px]'
       />
       <motion.span
         initial={{ opacity: 0 }}
@@ -84,7 +84,7 @@ export const Hero = () => {
         initial={{ x: -200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeOut' }}
-        className='font-anton text-secondary-100 absolute bottom-62.5 z-48 text-center text-[102px] leading-31.25 font-normal -tracking-[0.02em] sm:bottom-[536px] sm:text-[188px] sm:leading-57'
+        className='font-anton text-secondary-100 absolute bottom-62.5 z-30 text-center text-[102px] leading-31.25 font-normal -tracking-[0.02em] sm:bottom-[536px] sm:text-[188px] sm:leading-57'
         style={{
           fontSize: isLargish ? 'clamp(6.38rem, 18.29vw, 11.75rem)' : '102px',
           lineHeight: isLargish ? 'clamp(7.81rem, 22.18vw, 14.25rem)' : '125px',
@@ -97,7 +97,7 @@ export const Hero = () => {
         initial={{ x: 200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
-        className='font-anton text-secondary-100 absolute bottom-36 z-48 text-center text-[92px] leading-[112.5px] font-normal -tracking-[0.02em] sm:bottom-100 sm:text-[169px] sm:leading-51.25 md:bottom-96 lg:bottom-92 xl:bottom-91.5'
+        className='font-anton text-secondary-100 absolute bottom-36 z-30 text-center text-[92px] leading-[112.5px] font-normal -tracking-[0.02em] sm:bottom-100 sm:text-[169px] sm:leading-51.25 md:bottom-96 lg:bottom-92 xl:bottom-91.5'
         style={{
           fontSize: isLargish ? 'clamp(5.75rem, 16.44vw, 10.56rem)' : '92px',
           lineHeight: isLargish
@@ -112,7 +112,7 @@ export const Hero = () => {
         initial={{ x: 200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
-        className='font-anton absolute bottom-36 z-50 bg-clip-text text-center text-[92px] leading-[112.5px] font-normal -tracking-[0.02em] text-transparent [-webkit-text-stroke:1px_#f3b64c] sm:bottom-100 sm:text-[169px] sm:leading-51.25 md:bottom-96 lg:bottom-92 xl:bottom-91.5'
+        className='font-anton absolute bottom-36 z-41 bg-clip-text text-center text-[92px] leading-[112.5px] font-normal -tracking-[0.02em] text-transparent [-webkit-text-stroke:1px_#f3b64c] sm:bottom-100 sm:text-[169px] sm:leading-51.25 md:bottom-96 lg:bottom-92 xl:bottom-91.5'
         style={{
           fontSize: isLargish ? 'clamp(5.75rem, 16.44vw, 10.56rem)' : '92px',
           lineHeight: isLargish

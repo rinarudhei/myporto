@@ -6,6 +6,8 @@ import { Achievements } from './partials/achivements';
 import { EmploymentStatus } from './partials/employmentStatus';
 import { Hero } from './partials/hero';
 import { HighlightSkills } from './partials/highlightSkiils';
+import { Main } from './partials/main';
+import { MainDescription } from './partials/mainDescription';
 
 export default function Home() {
   return (
@@ -18,6 +20,9 @@ export default function Home() {
         <EmploymentStatus />
         <Hero />
       </Header>
+      <Main>
+        <MainDescription />
+      </Main>
     </div>
   );
 }
