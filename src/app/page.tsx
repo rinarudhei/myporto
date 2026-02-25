@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button';
 import { Navbar } from './partials/navbar';
 import { Header } from './partials/header';
 import ProfileDescription from './partials/profileDescription';
@@ -10,6 +9,7 @@ import { Main } from './partials/main';
 import { MainDescription } from './partials/mainDescription';
 import { MainTraits } from './partials/mainTraits';
 import { MainSkills } from './partials/mainSkills';
+import { MainBenefits } from './partials/mainBenefits';
 
 export default function Home() {
   return (
@@ -26,6 +26,7 @@ export default function Home() {
         <MainDescription />
         <MainTraits />
         <MainSkills />
+        <MainBenefits />
       </Main>
     </div>
   );

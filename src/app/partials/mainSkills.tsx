@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 export const MainSkills = () => {
   return (
-    <div className='flex-center w-screen flex-col gap-6 bg-linear-to-b from-[#9e385e]/0 to-[#9e385e] to-400% px-5 py-10 sm:gap-8 sm:px-10 sm:py-16 md:gap-10 lg:gap-12 lg:px-30 lg:py-20'>
+    <div className='flex-center w-screen flex-col gap-6 bg-linear-to-b from-[#9e385e]/0 to-[#9e385e] to-800% px-5 py-10 sm:gap-8 sm:px-10 sm:py-16 md:gap-10 lg:gap-12 lg:px-30 lg:py-20'>
       <div className='flex-center max-w-88.25 flex-col gap-2 sm:max-w-screen'>
         <h2 className='text-display-sm lg:text-display-xl text-center font-bold -tracking-[0.02rem] text-wrap text-neutral-950 sm:tracking-[0.03rem]'>
           Code, Design, and Everything in Between
@@ -47,7 +47,7 @@ export const MainSkills = () => {
                     alt={s.alt}
                     width={s.icon === '/css.svg' ? 30 : 35}
                     height={35}
-                    className='object-contain'
+                    className={(clsx('object-contain'), 'h-auto w-auto')}
                   />
                 </div>
                 <div>

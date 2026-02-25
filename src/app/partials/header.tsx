@@ -8,7 +8,9 @@ export const Header = ({ children }: { children: React.ReactNode }) => {
         <Image
           src={BackgroundWave}
           alt='Ocean Wave PNG Image'
-          className='absolute top-0 z-0 h-[793px] w-[1074px] object-cover opacity-8 mix-blend-luminosity sm:h-full sm:w-full'
+          width={793}
+          height={1074}
+          className='absolute top-0 z-0 h-auto w-auto object-cover opacity-8 mix-blend-luminosity sm:h-full sm:w-full'
         />
       </div>
       {children}

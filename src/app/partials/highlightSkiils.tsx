@@ -7,7 +7,13 @@ export const HighlightSkills = () => {
         <Image src='/js.svg' width={51} height={51} alt='JS icon' />
       </div>
       <div className='border-primary-300 flex-center h-17.25 w-17.25 gap-3 rounded-full border p-3'>
-        <Image src='/css.svg' width={35} height={41} alt='CSS3 icon' />
+        <Image
+          src='/css.svg'
+          width={35}
+          height={41}
+          alt='CSS3 icon'
+          className='h-auto w-auto'
+        />
       </div>
       <div className='border-primary-300 flex-center relative h-17.25 w-17.25 gap-3 rounded-full border p-3'>
         <div className='absolute right-5 z-40 h-7 w-6 bg-white'></div>
@@ -20,7 +26,13 @@ export const HighlightSkills = () => {
         />
       </div>
       <div className='border-primary-300 flex-center h-17.25 w-17.25 gap-3 rounded-full border p-3'>
-        <Image src='/reactjs.svg' width={44} height={39} alt='ReactJS icon' />
+        <Image
+          src='/reactjs.svg'
+          width={44}
+          height={39}
+          alt='ReactJS icon'
+          className='h-auto w-auto'
+        />
       </div>
     </div>
   );
