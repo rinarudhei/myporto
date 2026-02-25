@@ -10,6 +10,7 @@ import { MainDescription } from './partials/mainDescription';
 import { MainTraits } from './partials/mainTraits';
 import { MainSkills } from './partials/mainSkills';
 import { MainBenefits } from './partials/mainBenefits';
+import { MainPortofolio } from './partials/mainPortofolio';
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <MainTraits />
         <MainSkills />
         <MainBenefits />
+        <MainPortofolio />
       </Main>
     </div>
   );
