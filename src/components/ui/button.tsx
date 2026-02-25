@@ -13,6 +13,8 @@ const buttonVariants = cva(
           'bg-primary-300 text-white hover:bg-primary-300/90 font-bold text-sm rounded-full',
         secondary:
           'bg-secondary-100 text-neutral-950 hover:bg-seoncdary-100/90 font-semibold text-sm rounded-full',
+        outline:
+          'bg-white text-neutral-950 hover:bg-primary-300/10 rounded-full border border-neutral-300 disabled:text-neutral-400',
       },
       size: {
         default: 'h-11 p-2 gap-1',

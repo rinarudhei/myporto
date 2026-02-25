@@ -9,6 +9,7 @@ import { HighlightSkills } from './partials/highlightSkiils';
 import { Main } from './partials/main';
 import { MainDescription } from './partials/mainDescription';
 import { MainTraits } from './partials/mainTraits';
+import { MainSkills } from './partials/mainSkills';
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Main>
         <MainDescription />
         <MainTraits />
+        <MainSkills />
       </Main>
     </div>
   );
