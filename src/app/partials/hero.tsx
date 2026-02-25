@@ -23,9 +23,9 @@ export const Hero = () => {
     }
   );
 
-  const MotionImage = motion(HeroImage);
-  const MotionShuriken = motion(ShurikenImage);
-  const MotionLightning = motion(LightningImage);
+  const MotionImage = motion.create(HeroImage);
+  const MotionShuriken = motion.create(ShurikenImage);
+  const MotionLightning = motion.create(LightningImage);
 
   return (
     <>

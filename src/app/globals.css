@@ -118,6 +118,8 @@
   --spacing-9xl: 6rem;
   --spacing-10xl: 8rem;
   --spacing-11xl: 8.75rem;
+
+  --breakpoint-xs: 20rem;
 }
 
 @theme inline {
