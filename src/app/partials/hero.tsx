@@ -67,6 +67,7 @@ export const Hero = () => {
         transition={{ duration: 0.6, ease: 'easeOut' }}
         width={610}
         height={735}
+        loading='eager'
         src='/CandidGentleman.png'
         alt='Candid Gentleman png picture'
         className='absolute bottom-0 z-40 ml-4.5 w-full max-w-[375px] sm:ml-2 sm:max-w-[520px] md:max-w-[540px] lg:max-w-[580px] xl:max-w-[610px]'
