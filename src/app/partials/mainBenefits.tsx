@@ -26,7 +26,7 @@ export const MainBenefits = () => {
             <h4 className='text-center text-lg font-bold'>With Me</h4>
             <Avatar>
               <AvatarImage
-                src='/CandidGentleman.png'
+                src='/image/CandidGentleman.png'
                 className='translate-x-lg translate-y-sm h-[79px] w-[65px]'
               />
             </Avatar>
@@ -63,7 +63,7 @@ export const MainBenefits = () => {
             </h4>
             <Avatar className='bg-neutral-300'>
               <AvatarImage
-                src='/profile-placeholder.svg'
+                src='/icon/profile-placeholder.svg'
                 className='scale-60'
               />
             </Avatar>

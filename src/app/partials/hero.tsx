@@ -39,7 +39,7 @@ export const Hero = () => {
           duration: 1,
           ease: 'linear',
         }}
-        src='/shuriken.svg'
+        src='/icon/shuriken.svg'
         width={99}
         height={99}
         alt='Ping Shuriken svg image'
@@ -55,7 +55,7 @@ export const Hero = () => {
           duration: 1,
           ease: 'linear',
         }}
-        src='/lightning.svg'
+        src='/icon/lightning.svg'
         alt='Ping Lightning svg image'
         width={91}
         height={91}
@@ -68,7 +68,7 @@ export const Hero = () => {
         width={610}
         height={735}
         loading='eager'
-        src='/CandidGentleman.png'
+        src='/image/CandidGentleman.png'
         alt='Candid Gentleman png picture'
         className='absolute bottom-0 z-40 ml-4.5 w-full max-w-[375px] sm:ml-2 sm:max-w-[520px] md:max-w-[540px] lg:max-w-[580px] xl:max-w-[610px]'
       />

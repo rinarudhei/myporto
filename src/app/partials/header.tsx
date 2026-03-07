@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import BackgroundWave from '../../../public/background-wave.png';
+import BackgroundWave from '../../../public/image/background-wave.png';
 
 export const Header = ({ children }: { children: React.ReactNode }) => {
   return (

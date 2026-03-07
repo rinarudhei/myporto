@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   title: 'Frontend Engineer Rinaldi Adrian',
   description: 'Portofolio Project Showcase',
   icons: {
-    icon: '/favicon.png',
+    icon: '/icon/favicon.png',
   },
 };
 

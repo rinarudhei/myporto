@@ -45,7 +45,7 @@ export const MainSkills = () => {
                   <Image
                     src={s.icon}
                     alt={s.alt}
-                    width={s.icon === '/css.svg' ? 30 : 35}
+                    width={s.icon === '/icon/css.svg' ? 30 : 35}
                     height={35}
                     className={(clsx('object-contain'), 'h-auto w-auto')}
                   />
