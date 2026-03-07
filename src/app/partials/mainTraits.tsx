@@ -1,5 +1,6 @@
 import { Separator } from '@/components/ui/separator';
 import { traitsData } from '@/constant/traits-data';
+
 export const MainTraits = () => {
   const iconMap: Record<string, React.ReactElement> = {
     gear: (

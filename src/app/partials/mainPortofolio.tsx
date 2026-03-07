@@ -32,7 +32,7 @@ export const MainPortofolio = () => {
       </div>
 
       {/* PORTOFOLIO LIST */}
-      <div className='flex-center flex-col gap-5 xl:flex-row'>
+      <div className='flex-center w-full flex-col gap-5 xl:flex-row'>
         {portofolios.map((p, i) => (
           <PortofolioCard
             key={i}
