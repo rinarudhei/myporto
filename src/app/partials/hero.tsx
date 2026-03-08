@@ -4,28 +4,29 @@ import { motion } from 'framer-motion';
 import { forwardRef } from 'react';
 import useMedia from 'use-media';
 
+const HeroImage = forwardRef<HTMLImageElement, ImageProps>(
+  function ExoticImageWrapper(props, ref) {
+    return <Image {...props} ref={ref} />;
+  }
+);
+
+const ShurikenImage = forwardRef<HTMLImageElement, ImageProps>(
+  function ExoticImageWrapper(props, ref) {
+    return <Image {...props} ref={ref} />;
+  }
+);
+const LightningImage = forwardRef<HTMLImageElement, ImageProps>(
+  function ExoticImageWrapper(props, ref) {
+    return <Image {...props} ref={ref} />;
+  }
+);
+
+const MotionImage = motion.create(HeroImage);
+const MotionShuriken = motion.create(ShurikenImage);
+const MotionLightning = motion.create(LightningImage);
+
 export const Hero = () => {
   const isLargish = useMedia({ minWidth: '640px' });
-  const HeroImage = forwardRef<HTMLImageElement, ImageProps>(
-    function ExoticImageWrapper(props, ref) {
-      return <Image {...props} ref={ref} />;
-    }
-  );
-
-  const ShurikenImage = forwardRef<HTMLImageElement, ImageProps>(
-    function ExoticImageWrapper(props, ref) {
-      return <Image {...props} ref={ref} />;
-    }
-  );
-  const LightningImage = forwardRef<HTMLImageElement, ImageProps>(
-    function ExoticImageWrapper(props, ref) {
-      return <Image {...props} ref={ref} />;
-    }
-  );
-
-  const MotionImage = motion.create(HeroImage);
-  const MotionShuriken = motion.create(ShurikenImage);
-  const MotionLightning = motion.create(LightningImage);
 
   return (
     <>

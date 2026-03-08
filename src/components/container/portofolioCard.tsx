@@ -14,9 +14,9 @@ export const PortofolioCard = ({
   description,
 }: PortofolioCardProps) => {
   return (
-    <Card>
+    <Card className='w-90.25 xl:w-96.75'>
       <div className='flex-center relative flex-col gap-2 rounded-4xl bg-neutral-100 p-4'>
-        <div className='relative h-90.25 w-90.25 xl:h-88.75 xl:w-88.75'>
+        <div className='relative h-82.25 w-82.25 xl:h-88.75 xl:w-88.75'>
           <Image
             src={imageUrl}
             alt='Portofolio 1 image png'
@@ -30,12 +30,12 @@ export const PortofolioCard = ({
           alt='Best Portofolio yello tag'
           width={97}
           height={29}
-          className='absolute right-1/2 bottom-1/2 -translate-x-[108px] -translate-y-31 xl:-translate-x-[104.75px] xl:-translate-y-34'
+          className='absolute right-1/2 bottom-1/2 -translate-x-23 -translate-y-31 xl:-translate-x-[104.75px] xl:-translate-y-34'
         />
       </div>
-      <CardFooter>
-        <div className='flex-center justify-between'>
-          <div className='flex w-full flex-col gap-3 xl:w-79.75'>
+      <CardFooter className='flex-center w-full'>
+        <div className='flex-center w-full justify-between'>
+          <div className='flex w-90.25 flex-col gap-3 xl:w-79.75'>
             <h4 className='text-md font-bold tracking-[0.02rem]'>{title}</h4>
             <Separator className='bg-neutral-300' />
             <p className='text-xs font-medium tracking-normal text-neutral-600'>
